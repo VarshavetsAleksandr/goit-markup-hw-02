@@ -1,0 +1,142 @@
+:root {
+    /**
+      |============================
+      | Colors
+      |============================
+    */
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-light: #ffffff;
+    --color-dairy: #fcfcfc;
+    /**
+  |============================
+  | Fonts
+  |============================
+*/
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+}
+
+/**
+  |============================
+  | Body
+  |============================
+*/
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--color-light);
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+.header {}
+
+.nav {}
+
+.nav-logo {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+.nav-list-item-link {}
+
+.address {}
+
+.address-list {}
+
+.address-list-item {}
+
+.address-list-item-link {}
+
+/**
+  |============================
+  | hero section
+  |============================
+*/
+
+.hero-section {
+    background-color: var(--color-navy-blue);
+}
+
+.hero-section-title {}
+
+.hero-section-btn {}
+
+/**
+  |============================
+  | advantages section - секция наши преимущества
+  |============================
+*/
+
+.advantages {}
+
+.visually-hidden {}
+
+.advantages-list {}
+
+.advantages-list-item {}
+
+.advantages-list-item-subtitle {}
+
+.advantages-list-item-desc {}
+
+/**
+  |============================
+  | works section - види робіт компанії
+  |============================
+*/
+
+.works {}
+
+.works-title {}
+
+.works-list {}
+
+.works-list-item {}
+
+.works-list-img {}
+
+/**
+  |============================
+  | My team section
+  |============================
+*/
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-list-img {}
+
+.team-list-subtitle {}
+
+.team-list-desc {}
+
+/**
+  |============================
+  | Footer section
+  |============================
+*/
+
+.footer {}
+
+.footer-link {}
+
+.footer-desc {}

@@ -16,6 +16,7 @@
     --color-grey: #2e2f42;
     --color-light: #ffffff;
     --color-dairy: #fcfcfc;
+
     /**
   |============================
   | Fonts
@@ -34,6 +35,27 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--color-light);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+.subtitle {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
+
+.list {
+    list-style: none;
 }
 
 /**
@@ -69,11 +91,27 @@ body {
 
 .hero-section {
     background-color: var(--color-navy-blue);
+
 }
 
-.hero-section-title {}
+.hero-section-title {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--color-light);
+}
 
-.hero-section-btn {}
+.hero-section-btn {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-light);
+    background-color: var(--color-iris);
+}
 
 /**
   |============================
@@ -115,11 +153,15 @@ body {
   |============================
 */
 
-.team {}
+.team {
+    background-color: var(--color-cloud);
+}
 
 .team-title {}
 
-.team-list {}
+.team-list {
+    background-color: var(--color-light);
+}
 
 .team-list-item {}
 
@@ -135,8 +177,12 @@ body {
   |============================
 */
 
-.footer {}
+.footer {
+    background-color: var(--color-navy-blue);
+}
 
 .footer-link {}
 
-.footer-desc {}
+.footer-desc {
+    color: var(--color-cloud);
+}

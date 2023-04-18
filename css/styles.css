@@ -35,8 +35,8 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--color-light);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    /* line-height: 1.5;
+    letter-spacing: 0.02em; */
     color: var(--color-slate);
 }
 
@@ -106,6 +106,8 @@ body {
 .nav-list-item-link {
     font-weight: 500;
     color: var(--color-navy-blue);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-list-item-link:hover,
@@ -123,6 +125,8 @@ body {
 
 .address-list-item-link {
     color: var(--color-slate);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-list-item-link:hover,
@@ -183,7 +187,10 @@ body {
 
 .advantages-list-item-subtitle {}
 
-.advantages-list-item-desc {}
+.advantages-list-item-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 /**
   |============================
@@ -241,7 +248,10 @@ body {
 
 .team-list-subtitle {}
 
-.team-list-desc {}
+.team-list-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 /**
   |============================
@@ -266,6 +276,8 @@ body {
 
 .footer-desc {
     color: var(--color-cloud);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-link-desc {
@@ -324,7 +336,6 @@ body {
 }
 
 .card-desc {
-    font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
